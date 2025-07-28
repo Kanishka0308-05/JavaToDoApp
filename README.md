@@ -1,7 +1,7 @@
 # Java Command-Line To-Do Application
 This is a simple console - based  To-Do List Application built with Java. It allows users to manage their tasks by adding, viewing, marking as complete, and deleting them. Tasks are saved to a local file, ensuring persistence even after the application is closed.
 
-###Features
+Features
 
 -   **Add Task:** Quickly add new tasks to your list.
 -   **View Tasks:** See all your current tasks, numbered for easy reference.
@@ -9,14 +9,14 @@ This is a simple console - based  To-Do List Application built with Java. It all
 -   **Delete Task:** Remove tasks from your list.
 -   **Data Persistence:** All tasks are automatically saved to `tasks.txt` and loaded on startup.
 
-###Technologies Used
+Technologies Used
 
 -   **Java:** Core programming language.
 -   **`java.util.ArrayList`:** Used for managing tasks in memory dynamically.
 -   **`java.io.*` (FileReader, FileWriter, BufferedReader, BufferedWriter):** Essential for handling file input/output to save and load tasks, allowing data to persist between sessions.
 -   **`java.util.Scanner`:** Utilized for reading various types of user input from the console.
 
-###How To Run
+How To Run
 1.  **Prerequisites:** Ensure you have a Java Development Kit (JDK) installed on your system (Java 8 or newer is recommended).
 2.  **Clone/Download the Repository:**
     ```bash
@@ -35,7 +35,7 @@ This is a simple console - based  To-Do List Application built with Java. It all
     Follow the on-screen prompts in the console.
 
 
- ###Lessons Learned & Skills Demonstrated
+ Lessons Learned & Skills Demonstrated
 
 -   **Core Java Concepts:** Gained hands-on experience with fundamental Java syntax, data types, and control flow structures (like `do-while` loops for the menu, `switch` statements for choices).
 -   **Object-Oriented Programming (OOP) Basics:** Used `ArrayList` effectively as a dynamic data structure to store and manipulate a collection of tasks.
